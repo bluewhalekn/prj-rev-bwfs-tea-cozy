@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tea Cosy</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="bigparent">
+<!-- Header -->
+  <header>
+    <div class="parent1">
+    <div class="logo">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png"/>
+</div>
+    <nav style="color:white; float: left;">
+      <a href="#mission">Missions</a></span>
+      <a href="#featuredtea">Featured Tea</a></span>
+      <a href="#locations">Locations</a></span>
+</nav>
+  </header>
+</div>
+
+<!-- First box-->
+<div id="mission">
+<div class="parent2">
+  <div class="text">
+  <h2>Our Mission</h2>
+  <h4>Handpicked, Artisinally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+</div>
+</div>
+</div>
+
+<!-- Second Box with photos -->
+<div id="featuredtea">
+<div class="parent3">
+  <div class="title">
+    <h2>Tea of the Month</h2>
+  </div>
+  <div class="title2">
+  <h4>What's Steeping at The Tea Cozy?</h4>
+</div>
+
+<div class="photo">
+  <div class="berryblitz">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg"/>
+<p class="caption">Fall Berry Blitz</p>
+  </div>
+  <div class="spicedrum">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg"/>
+<p class="caption">Spiced Rum Tea</p>
+  </div>
+  <div class="donuts">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg"/>
+<p class="caption">Seasonal Donut</p>
+  </div>
+  <div class="myrtle">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg"/>
+<p class="caption">Myrtle Ave Tea</p>
+  </div>
+    <div class="bedford">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg"/>
+<p class="caption">Bedford Bizarre Tea</p>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- Third box with locations -->
+<div id="locations">
+  <div class="parent4">
+<div class="locationtitle"><h2 class="titlelocate">Locations</h2></div>
+    <div class="locationboxes">
+    <div class="box"><h3>Downtown</h3>
+  <p>384 West 4th St<br /><br /><br />Suite 108<br /><br /><br />Portland, Maine</hp></div>
+<div class="box">
+  <h3>East Bayside</h3>
+  <p>3433 Phisherman's Avenue<br /><br /><br />(Northwest Corner)<br /><br /><br />Portland, Maine</p>
+</div>
+<div class="box">
+  <h3>Oakdale</h3>
+  <p>515 Crescent Avenue<br /><br /><br />Second Floor<br /><br /><br />Portland, Maine</p>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Tea cozy -->
+<div class="parent5">
+  <h2>The Tea Cozy</h2>
+  <h5>contact@theteacozy.com</h5>
+  <h5>917-555-8904</h5>
+</div>
+
+<!-- footer -->
+<div class="parent6">
+  <footer>
+    <p>copyright The Tea Cozy 2017</p>
+  </footer>
+</div>
+
+</div>
+  </body>
+</html>

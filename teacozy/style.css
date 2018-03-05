@@ -1,0 +1,141 @@
+/*Universal */
+
+body {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  width: auto;
+  height: auto;
+}
+
+
+/* Header */
+header{
+  display: flex;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  padding-left: 10px;
+}
+
+.parent1{
+  z-index: 1;
+}
+
+.logo img {
+  image-orientation: left;
+  float: left;
+  padding-left: 10px;
+  height: 50px;
+}
+nav a {
+  float: right;
+  justify-content: flex-end;
+}
+
+/* First Box */
+.parent2{
+display: flex;
+height: 700px;
+width: 1200px;
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+align-items: center;
+}
+
+        /* text within box*/
+.text {
+  width: 1200px;
+  background-color: black;
+  flex-flow: center;
+}
+
+
+/* Second Box */
+.parent3 {
+display: flex;
+width: 1000px;
+height: auto;
+padding-left: 20px;
+align-content:center;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+align-content: center;
+}
+.title{
+  text-align: center;
+  flex-direction: column;
+
+}
+.title2{
+text-align: center;
+}
+    /*photos within box */
+.photo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction:row;
+
+}
+.photo img {
+  height: 200px;
+  width: 300px;
+}
+p {
+  display: block;
+}
+
+/* Third Box */
+.parent4 {
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+background-size: 100%;
+display: flex;
+height: 500px;
+width: 100%;
+padding-left: 20px;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+align-content: center;
+}
+.titlelocate h2 {
+  margin-bottom: 15px;
+  display: block;
+
+}
+.box {
+  display: inline-block;
+  opacity: 1;
+  flex-direction: row;
+  background-color: black;
+  align-content: center;
+  margin: 40px;
+  width: 300px;
+}
+
+/* bottom */
+.parent5 {
+display: flex;
+padding-left: 20px;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+flex-direction: column;
+}
+/* footer */
+.parent6{
+display: flex;
+margin-left: 20px;
+
+}
